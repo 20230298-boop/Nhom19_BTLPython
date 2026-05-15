@@ -87,3 +87,4 @@ class UserDialog(ctk.CTkToplevel):
                 (username, hashed, fullname, self.e_email.get().strip(),
                  self.e_phone.get().strip(), self.v_role.get()))
         self.destroy()
+        
